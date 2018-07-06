@@ -1,0 +1,16 @@
+# 数据源
+spring:
+    datasource:
+       # master数据源配置
+       master:
+           driverClassName: com.mysql.jdbc.Driver
+           url: jdbc:mysql://localhost:3306/test?useUnicode=true&characterEncoding=utf-8
+           username: root
+           password: root
+       # cluster数据源配置
+       cluster:
+           driverClassName: com.mysql.jdbc.Driver
+           url: jdbc:mysql://localhost:3306/test2?useUnicode=true&characterEncoding=utf-8
+           username: root
+           password: root
+           
